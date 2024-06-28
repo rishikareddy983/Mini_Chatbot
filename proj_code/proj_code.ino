@@ -52,7 +52,7 @@ bool recordTask = false;
 bool chatgptTask = false;
 
 WiFiClientSecure client;
-ChatGPT<WiFiClientSecure> chat_gpt(&client, "v1", "open-ai key");   // Please fill in your OpenAI key
+//ChatGPT<WiFiClientSecure> chat_gpt(&client, "v1", "open-ai key");   // Please fill in your OpenAI key
 
 
 // Please change to your network
